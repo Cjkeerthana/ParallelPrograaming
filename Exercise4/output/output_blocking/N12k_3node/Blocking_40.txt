@@ -1,0 +1,285 @@
+matrix size = 12000
+number of iterations = 10
+element for checking = Mat[102,393]
+
+ total elapsed time on processor 1 = 0.540660 seconds
+
+ communication elapsed time on processor 1 = 0.113589 seconds
+
+ computation time for the evolving the bulk by processor 1 = 0.422767 seconds
+
+
+ total elapsed time on processor 3 = 0.529724 seconds
+
+ communication elapsed time on processor 3 = 0.084569 seconds
+
+ computation time for the evolving the bulk by processor 3 = 0.440513 seconds
+
+
+ total elapsed time on processor 2 = 0.573044 seconds
+
+ communication elapsed time on processor 2 = 0.111482 seconds
+
+ computation time for the evolving the bulk by processor 2 = 0.457519 seconds
+
+
+ total elapsed time on processor 9 = 0.530685 seconds
+
+ communication elapsed time on processor 9 = 0.078152 seconds
+
+ computation time for the evolving the bulk by processor 9 = 0.448519 seconds
+
+
+ total elapsed time on processor 0 = 0.535633 seconds
+
+ communication elapsed time on processor 0 = 0.025907 seconds
+
+ computation time for the evolving the bulk by processor 0 = 0.505545 seconds
+
+
+matrix[102,393] = 0.500000
+
+ total elapsed time on processor 4 = 0.532234 seconds
+
+ communication elapsed time on processor 4 = 0.049726 seconds
+
+ computation time for the evolving the bulk by processor 4 = 0.478328 seconds
+
+
+ total elapsed time on processor 5 = 0.530060 seconds
+
+ communication elapsed time on processor 5 = 0.084371 seconds
+
+ computation time for the evolving the bulk by processor 5 = 0.441782 seconds
+
+
+ total elapsed time on processor 7 = 0.556149 seconds
+
+ communication elapsed time on processor 7 = 0.088370 seconds
+
+ computation time for the evolving the bulk by processor 7 = 0.464855 seconds
+
+
+ total elapsed time on processor 6 = 0.529408 seconds
+
+ communication elapsed time on processor 6 = 0.024426 seconds
+
+ computation time for the evolving the bulk by processor 6 = 0.501265 seconds
+
+
+ total elapsed time on processor 8 = 0.530918 seconds
+
+ communication elapsed time on processor 8 = 0.048910 seconds
+
+ computation time for the evolving the bulk by processor 8 = 0.478135 seconds
+
+
+ total elapsed time on processor 11 = 0.562702 seconds
+
+ communication elapsed time on processor 11 = 0.081033 seconds
+
+ computation time for the evolving the bulk by processor 11 = 0.478453 seconds
+
+
+ total elapsed time on processor 10 = 0.524156 seconds
+
+ communication elapsed time on processor 10 = 0.027703 seconds
+
+ computation time for the evolving the bulk by processor 10 = 0.492697 seconds
+
+
+ total elapsed time on processor 15 = 0.545518 seconds
+
+ communication elapsed time on processor 15 = 0.124851 seconds
+
+ computation time for the evolving the bulk by processor 15 = 0.417122 seconds
+
+
+ total elapsed time on processor 34 = 0.543974 seconds
+
+ communication elapsed time on processor 34 = 0.068716 seconds
+
+ computation time for the evolving the bulk by processor 34 = 0.471141 seconds
+
+
+ total elapsed time on processor 39 = 0.522827 seconds
+
+ communication elapsed time on processor 39 = 0.016618 seconds
+
+ computation time for the evolving the bulk by processor 39 = 0.502274 seconds
+
+
+ total elapsed time on processor 37 = 0.539510 seconds
+
+ communication elapsed time on processor 37 = 0.032709 seconds
+
+ computation time for the evolving the bulk by processor 37 = 0.502915 seconds
+
+
+ total elapsed time on processor 12 = 0.530494 seconds
+
+ communication elapsed time on processor 12 = 0.065103 seconds
+
+ computation time for the evolving the bulk by processor 12 = 0.461857 seconds
+
+
+ total elapsed time on processor 13 = 0.550277 seconds
+
+ communication elapsed time on processor 13 = 0.058920 seconds
+
+ computation time for the evolving the bulk by processor 13 = 0.487992 seconds
+
+
+ total elapsed time on processor 17 = 0.577019 seconds
+
+ communication elapsed time on processor 17 = 0.135723 seconds
+
+ computation time for the evolving the bulk by processor 17 = 0.437386 seconds
+
+
+ total elapsed time on processor 16 = 0.548810 seconds
+
+ communication elapsed time on processor 16 = 0.107216 seconds
+
+ computation time for the evolving the bulk by processor 16 = 0.437949 seconds
+
+
+ total elapsed time on processor 36 = 0.552325 seconds
+
+ communication elapsed time on processor 36 = 0.057178 seconds
+
+ computation time for the evolving the bulk by processor 36 = 0.491848 seconds
+
+
+ total elapsed time on processor 14 = 0.543751 seconds
+
+ communication elapsed time on processor 14 = 0.076538 seconds
+
+ computation time for the evolving the bulk by processor 14 = 0.464295 seconds
+
+
+ total elapsed time on processor 18 = 0.544969 seconds
+
+ communication elapsed time on processor 18 = 0.073881 seconds
+
+ computation time for the evolving the bulk by processor 18 = 0.467167 seconds
+
+
+ total elapsed time on processor 19 = 0.561608 seconds
+
+ communication elapsed time on processor 19 = 0.126632 seconds
+
+ computation time for the evolving the bulk by processor 19 = 0.430906 seconds
+
+
+ total elapsed time on processor 35 = 0.547841 seconds
+
+ communication elapsed time on processor 35 = 0.039668 seconds
+
+ computation time for the evolving the bulk by processor 35 = 0.504421 seconds
+
+
+ total elapsed time on processor 32 = 0.549879 seconds
+
+ communication elapsed time on processor 32 = 0.048747 seconds
+
+ computation time for the evolving the bulk by processor 32 = 0.497406 seconds
+
+
+ total elapsed time on processor 33 = 0.551685 seconds
+
+ communication elapsed time on processor 33 = 0.042476 seconds
+
+ computation time for the evolving the bulk by processor 33 = 0.505527 seconds
+
+
+ total elapsed time on processor 30 = 0.568945 seconds
+
+ communication elapsed time on processor 30 = 0.128216 seconds
+
+ computation time for the evolving the bulk by processor 30 = 0.436716 seconds
+
+
+ total elapsed time on processor 38 = 0.552201 seconds
+
+ communication elapsed time on processor 38 = 0.045042 seconds
+
+ computation time for the evolving the bulk by processor 38 = 0.503394 seconds
+
+
+ total elapsed time on processor 31 = 0.548534 seconds
+
+ communication elapsed time on processor 31 = 0.027030 seconds
+
+ computation time for the evolving the bulk by processor 31 = 0.517895 seconds
+
+
+ total elapsed time on processor 29 = 0.552892 seconds
+
+ communication elapsed time on processor 29 = 0.040252 seconds
+
+ computation time for the evolving the bulk by processor 29 = 0.509031 seconds
+
+
+ total elapsed time on processor 28 = 0.558154 seconds
+
+ communication elapsed time on processor 28 = 0.102214 seconds
+
+ computation time for the evolving the bulk by processor 28 = 0.451619 seconds
+
+
+ total elapsed time on processor 27 = 0.562843 seconds
+
+ communication elapsed time on processor 27 = 0.090975 seconds
+
+ computation time for the evolving the bulk by processor 27 = 0.468271 seconds
+
+
+ total elapsed time on processor 23 = 0.591929 seconds
+
+ communication elapsed time on processor 23 = 0.067101 seconds
+
+ computation time for the evolving the bulk by processor 23 = 0.520163 seconds
+
+
+ total elapsed time on processor 25 = 0.594170 seconds
+
+ communication elapsed time on processor 25 = 0.148266 seconds
+
+ computation time for the evolving the bulk by processor 25 = 0.442108 seconds
+
+
+ total elapsed time on processor 22 = 0.562354 seconds
+
+ communication elapsed time on processor 22 = 0.105238 seconds
+
+ total elapsed time on processor 26 = 0.565719 seconds
+
+ communication elapsed time on processor 26 = 0.068239 seconds
+
+
+ computation time for the evolving the bulk by processor 22 = 0.453607 seconds
+
+ computation time for the evolving the bulk by processor 26 = 0.493528 seconds
+
+
+ total elapsed time on processor 20 = 0.548576 seconds
+
+ communication elapsed time on processor 20 = 0.066506 seconds
+
+ computation time for the evolving the bulk by processor 20 = 0.478773 seconds
+
+
+ total elapsed time on processor 24 = 0.590769 seconds
+
+ communication elapsed time on processor 24 = 0.135220 seconds
+
+ computation time for the evolving the bulk by processor 24 = 0.452251 seconds
+
+
+ total elapsed time on processor 21 = 0.585529 seconds
+
+ communication elapsed time on processor 21 = 0.136500 seconds
+
+ computation time for the evolving the bulk by processor 21 = 0.446160 seconds
+

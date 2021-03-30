@@ -1,0 +1,19 @@
+matrix size = 12000
+number of iterations = 10
+element for checking = Mat[102,393]
+
+ total elapsed time on processor 1 = 1.287808 seconds
+
+ communication elapsed time on processor 1 = 1.287180 seconds
+
+ computation time for the evolving the bulk by processor 1 = 1.285988 seconds
+
+
+ total elapsed time on processor 0 = 1.290842 seconds
+
+ communication elapsed time on processor 0 = 1.290151 seconds
+
+ computation time for the evolving the bulk by processor 0 = 1.289243 seconds
+
+
+matrix[102,393] = 0.500000
