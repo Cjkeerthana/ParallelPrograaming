@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <time.h>
 #include <sys/time.h>
+#define BLOCKING
 
 /*** function declarations ***/
 
@@ -37,7 +38,7 @@ int main(int argc, char* argv[]){
 
 
   // timing variables
-  double t_start, t_end, t_start_comm, t_end_comm, increment, increment_offset;
+  double t_start, t_end, t_start_comm, t_end_comm, t_start_comp, t_end_comp, t_comm = 0, t_comp = 0, increment, increment_offset;
 
   // indexes for loops
   size_t i, j, it;
@@ -133,17 +134,21 @@ int main(int argc, char* argv[]){
   t_start = seconds();
   for( it = 0; it < iterations; ++it ){
     
-    t_start_comm = seconds(); 
    //Exchange borders	  
 #ifdef BLOCKING	  
+    t_start_comm = seconds();
+   // printf("Inside Blocking\n");
     exchange_borders_blocking(matrix, loc_dimension, dimension, prev, next, MPI_ARRAYROW);
     t_end_comm = seconds();   
 #else
+    t_start_comm = seconds();
     exchange_borders_nonblocking(matrix, loc_dimension, dimension, prev, next, MPI_ARRAYROW, &request);
 #endif
     
-    //evolve interior	    
+    //evolve interior
+    t_start_comp = seconds();
     evolve( matrix, matrix_new, 2, loc_dimension, dimension );	//bulk
+    t_end_comp = seconds();
 
 #ifndef BLOCKING    
     MPI_Waitall(2, request, status);
@@ -159,13 +164,17 @@ int main(int argc, char* argv[]){
     matrix = matrix_new;
     matrix_new = tmp_matrix;
 
+    t_comm = t_comm + t_end_comm - t_start_comm;
+    t_comp = t_comp + t_end_comp - t_start_comp;
   }
   t_end = seconds();
   
-  if(rank == 0) {
-    printf( "\n total elapsed time = %f seconds\n", t_end - t_start );
-    printf( "\n communication elapsed time = %f seconds\n", t_end_comm - t_start_comm );
-  }
+
+   printf( "\n total elapsed time on processor %d = %f seconds\n", rank, t_end - t_start );
+   printf( "\n communication elapsed time on processor %d = %f seconds\n",rank, t_comm );
+   printf("\n computation time for the evolving the bulk by processor %d = %f seconds\n",rank, t_comp);
+   printf("\n");
+  
   
   //peek into row and coloumn
   size_t glob_dimension_start = rank * loc_dimension + 1  +  offset;
