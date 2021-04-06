@@ -1,0 +1,186 @@
+matrix size = 1200
+number of iterations = 10000
+element for checking = Mat[102,393]
+write interval = 200
+
+ total elapsed time on processor 1 = 7.237166 seconds
+
+ communication elapsed time on processor 1 = 6.692787 seconds
+
+ computation time for the evolving the bulk by processor 1 = 1.710529 seconds
+
+ computation time for dumping the files by processor 1 = 0.480250 seconds
+
+
+matrix[102,393] = 0.427388
+
+ total elapsed time on processor 2 = 7.240253 seconds
+
+ communication elapsed time on processor 2 = 6.592911 seconds
+
+ computation time for the evolving the bulk by processor 2 = 1.728622 seconds
+
+ computation time for dumping the files by processor 2 = 0.582985 seconds
+
+
+ total elapsed time on processor 3 = 7.242525 seconds
+
+ communication elapsed time on processor 3 = 6.491671 seconds
+
+ computation time for the evolving the bulk by processor 3 = 1.705672 seconds
+
+ computation time for dumping the files by processor 3 = 0.686468 seconds
+
+
+ total elapsed time on processor 4 = 7.244566 seconds
+
+ communication elapsed time on processor 4 = 6.393783 seconds
+
+ computation time for the evolving the bulk by processor 4 = 1.720273 seconds
+
+ computation time for dumping the files by processor 4 = 0.785613 seconds
+
+
+ total elapsed time on processor 5 = 7.246023 seconds
+
+ communication elapsed time on processor 5 = 6.296926 seconds
+
+ computation time for the evolving the bulk by processor 5 = 1.746787 seconds
+
+ computation time for dumping the files by processor 5 = 0.880863 seconds
+
+
+ total elapsed time on processor 6 = 7.247789 seconds
+
+ communication elapsed time on processor 6 = 6.184323 seconds
+
+ computation time for the evolving the bulk by processor 6 = 1.748737 seconds
+
+ computation time for dumping the files by processor 6 = 0.989574 seconds
+
+
+ total elapsed time on processor 7 = 7.249382 seconds
+
+ communication elapsed time on processor 7 = 6.062095 seconds
+
+ computation time for the evolving the bulk by processor 7 = 1.782887 seconds
+
+ computation time for dumping the files by processor 7 = 1.109207 seconds
+
+
+ total elapsed time on processor 8 = 7.251216 seconds
+
+ communication elapsed time on processor 8 = 5.962616 seconds
+
+ computation time for the evolving the bulk by processor 8 = 1.732322 seconds
+
+ computation time for dumping the files by processor 8 = 1.207396 seconds
+
+
+ total elapsed time on processor 9 = 7.252878 seconds
+
+ communication elapsed time on processor 9 = 5.832639 seconds
+
+ computation time for the evolving the bulk by processor 9 = 1.684135 seconds
+
+ computation time for dumping the files by processor 9 = 1.337492 seconds
+
+
+ total elapsed time on processor 10 = 7.254390 seconds
+
+ communication elapsed time on processor 10 = 5.735236 seconds
+
+ computation time for the evolving the bulk by processor 10 = 1.719842 seconds
+
+ computation time for dumping the files by processor 10 = 1.445509 seconds
+
+
+ total elapsed time on processor 11 = 7.256313 seconds
+
+ communication elapsed time on processor 11 = 5.648886 seconds
+
+ computation time for the evolving the bulk by processor 11 = 1.822352 seconds
+
+ computation time for dumping the files by processor 11 = 1.539337 seconds
+
+
+ total elapsed time on processor 12 = 7.257668 seconds
+
+ communication elapsed time on processor 12 = 5.528877 seconds
+
+ computation time for the evolving the bulk by processor 12 = 1.696920 seconds
+
+ computation time for dumping the files by processor 12 = 1.654826 seconds
+
+
+ total elapsed time on processor 13 = 7.259411 seconds
+
+ communication elapsed time on processor 13 = 5.418635 seconds
+
+ computation time for the evolving the bulk by processor 13 = 1.710879 seconds
+
+ computation time for dumping the files by processor 13 = 1.765712 seconds
+
+
+ total elapsed time on processor 14 = 7.261005 seconds
+
+ communication elapsed time on processor 14 = 5.306964 seconds
+
+ computation time for the evolving the bulk by processor 14 = 1.829015 seconds
+
+ computation time for dumping the files by processor 14 = 1.888830 seconds
+
+
+ total elapsed time on processor 15 = 7.262762 seconds
+
+ communication elapsed time on processor 15 = 5.179539 seconds
+
+ computation time for the evolving the bulk by processor 15 = 1.793259 seconds
+
+ computation time for dumping the files by processor 15 = 2.013185 seconds
+
+
+ total elapsed time on processor 16 = 7.264361 seconds
+
+ communication elapsed time on processor 16 = 5.050260 seconds
+
+ computation time for the evolving the bulk by processor 16 = 1.687497 seconds
+
+ computation time for dumping the files by processor 16 = 2.141342 seconds
+
+
+ total elapsed time on processor 17 = 7.264164 seconds
+
+ communication elapsed time on processor 17 = 4.942192 seconds
+
+ computation time for the evolving the bulk by processor 17 = 1.714882 seconds
+
+ computation time for dumping the files by processor 17 = 2.254783 seconds
+
+
+ total elapsed time on processor 18 = 7.267926 seconds
+
+ communication elapsed time on processor 18 = 4.820352 seconds
+
+ computation time for the evolving the bulk by processor 18 = 1.696082 seconds
+
+ computation time for dumping the files by processor 18 = 2.372608 seconds
+
+
+ total elapsed time on processor 19 = 7.269453 seconds
+
+ communication elapsed time on processor 19 = 4.707580 seconds
+
+ computation time for the evolving the bulk by processor 19 = 1.704014 seconds
+
+ computation time for dumping the files by processor 19 = 2.488876 seconds
+
+
+ total elapsed time on processor 0 = 7.269890 seconds
+
+ communication elapsed time on processor 0 = 4.523256 seconds
+
+ computation time for the evolving the bulk by processor 0 = 1.717741 seconds
+
+ computation time for dumping the files by processor 0 = 2.680508 seconds
+

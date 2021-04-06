@@ -1,0 +1,16 @@
+ total elapsed time on processor 1 = 2.645337 seconds
+ total elapsed time on processor 2 = 2.647114 seconds
+ total elapsed time on processor 3 = 2.649053 seconds
+ total elapsed time on processor 4 = 2.650827 seconds
+ total elapsed time on processor 5 = 2.652667 seconds
+ total elapsed time on processor 6 = 2.654543 seconds
+ total elapsed time on processor 7 = 2.656456 seconds
+ total elapsed time on processor 8 = 2.658360 seconds
+ total elapsed time on processor 9 = 2.659041 seconds
+ total elapsed time on processor 10 = 2.662212 seconds
+ total elapsed time on processor 11 = 2.664093 seconds
+ total elapsed time on processor 12 = 2.665826 seconds
+ total elapsed time on processor 13 = 2.668397 seconds
+ total elapsed time on processor 14 = 2.664055 seconds
+ total elapsed time on processor 15 = 2.672298 seconds
+ total elapsed time on processor 0 = 2.673832 seconds

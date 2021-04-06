@@ -1,0 +1,8 @@
+ computation time for dumping the files by processor 1 = 0.052590 seconds
+ computation time for dumping the files by processor 2 = 0.073426 seconds
+ computation time for dumping the files by processor 3 = 0.096917 seconds
+ computation time for dumping the files by processor 4 = 0.122884 seconds
+ computation time for dumping the files by processor 5 = 0.146569 seconds
+ computation time for dumping the files by processor 6 = 0.170080 seconds
+ computation time for dumping the files by processor 7 = 0.194820 seconds
+ computation time for dumping the files by processor 0 = 0.212174 seconds
