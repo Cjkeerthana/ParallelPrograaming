@@ -1,0 +1,5 @@
+
+Times
+Total time for multiplication averaged on all processors is 0.010626
+Total time for communication averaged on all processors is 0.000480
+Total time for calculation averaged on all processors is 0.010145

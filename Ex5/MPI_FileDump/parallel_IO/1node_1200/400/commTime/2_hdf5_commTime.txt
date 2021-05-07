@@ -1,0 +1,2 @@
+ communication elapsed time on processor 1 = 9.879565 seconds
+ communication elapsed time on processor 0 = 9.907830 seconds

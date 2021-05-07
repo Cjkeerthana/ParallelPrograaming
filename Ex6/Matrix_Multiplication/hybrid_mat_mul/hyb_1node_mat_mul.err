@@ -1,0 +1,7 @@
+Message size 8589934592 bigger than supported by PSM API. Max = 4294967296
+[cn07-38:07843] *** An error occurred in MPI_Allgatherv
+[cn07-38:07843] *** reported by process [2569469953,1]
+[cn07-38:07843] *** on communicator MPI_COMM_WORLD
+[cn07-38:07843] *** MPI_ERR_OTHER: known error not in list
+[cn07-38:07843] *** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+[cn07-38:07843] ***    and potentially your MPI job)

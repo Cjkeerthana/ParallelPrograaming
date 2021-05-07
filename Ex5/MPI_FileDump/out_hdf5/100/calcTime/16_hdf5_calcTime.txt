@@ -1,0 +1,16 @@
+ computation time for the evolving the bulk by processor 1 = 1.857650 seconds
+ computation time for the evolving the bulk by processor 2 = 5.433014 seconds
+ computation time for the evolving the bulk by processor 3 = 5.919812 seconds
+ computation time for the evolving the bulk by processor 4 = 5.276331 seconds
+ computation time for the evolving the bulk by processor 5 = 5.794216 seconds
+ computation time for the evolving the bulk by processor 6 = 5.410972 seconds
+ computation time for the evolving the bulk by processor 7 = 5.513339 seconds
+ computation time for the evolving the bulk by processor 8 = 5.771327 seconds
+ computation time for the evolving the bulk by processor 9 = 5.959804 seconds
+ computation time for the evolving the bulk by processor 10 = 5.218384 seconds
+ computation time for the evolving the bulk by processor 11 = 5.261191 seconds
+ computation time for the evolving the bulk by processor 12 = 5.536495 seconds
+ computation time for the evolving the bulk by processor 13 = 5.674132 seconds
+ computation time for the evolving the bulk by processor 14 = 5.368658 seconds
+ computation time for the evolving the bulk by processor 15 = 1.868024 seconds
+ computation time for the evolving the bulk by processor 0 = 5.011999 seconds

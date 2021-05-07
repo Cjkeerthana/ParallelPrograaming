@@ -1,0 +1,78 @@
+matrix size = 1200
+number of iterations = 10000
+element for checking = Mat[102,393]
+write interval = 50
+
+ total elapsed time on processor 1 = 14.360239 seconds
+
+ communication elapsed time on processor 1 = 8.339769 seconds
+
+ computation time for the evolving the bulk by processor 1 = 2.095385 seconds
+
+ computation time for dumping the files by processor 1 = 5.990558 seconds
+
+
+ total elapsed time on processor 2 = 14.362715 seconds
+
+ communication elapsed time on processor 2 = 8.010633 seconds
+
+ computation time for the evolving the bulk by processor 2 = 5.415075 seconds
+
+ computation time for dumping the files by processor 2 = 6.252099 seconds
+
+
+ total elapsed time on processor 3 = 14.364311 seconds
+
+ communication elapsed time on processor 3 = 7.764377 seconds
+
+ computation time for the evolving the bulk by processor 3 = 5.703496 seconds
+
+ computation time for dumping the files by processor 3 = 6.503453 seconds
+
+
+ total elapsed time on processor 4 = 14.366260 seconds
+
+ communication elapsed time on processor 4 = 7.421555 seconds
+
+ computation time for the evolving the bulk by processor 4 = 5.443376 seconds
+
+ computation time for dumping the files by processor 4 = 6.878922 seconds
+
+
+ total elapsed time on processor 5 = 14.369142 seconds
+
+ communication elapsed time on processor 5 = 6.990970 seconds
+
+ computation time for the evolving the bulk by processor 5 = 5.550664 seconds
+
+ computation time for dumping the files by processor 5 = 7.282939 seconds
+
+
+ total elapsed time on processor 6 = 14.370752 seconds
+
+ communication elapsed time on processor 6 = 6.567688 seconds
+
+ computation time for the evolving the bulk by processor 6 = 5.586389 seconds
+
+ computation time for dumping the files by processor 6 = 7.684733 seconds
+
+
+ total elapsed time on processor 7 = 14.373290 seconds
+
+ communication elapsed time on processor 7 = 6.115981 seconds
+
+ computation time for the evolving the bulk by processor 7 = 5.256741 seconds
+
+ computation time for dumping the files by processor 7 = 8.141457 seconds
+
+
+ total elapsed time on processor 0 = 14.376522 seconds
+
+ communication elapsed time on processor 0 = 5.732264 seconds
+
+ computation time for the evolving the bulk by processor 0 = 5.498465 seconds
+
+ computation time for dumping the files by processor 0 = 8.514329 seconds
+
+
+matrix[102,393] = 0.474781

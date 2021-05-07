@@ -1,0 +1,10 @@
+cn02-25.29475ipath_userinit: assign_context command failed: Network is down
+cn02-25.29474ipath_userinit: assign_context command failed: Network is down
+cn02-25.29477ipath_userinit: assign_context command failed: Network is down
+cn02-25.29476ipath_userinit: assign_context command failed: Network is down
+cn02-25.29478ipath_userinit: assign_context command failed: Network is down
+cn02-26.12469ipath_userinit: assign_context command failed: Network is down
+cn02-26.12466ipath_userinit: assign_context command failed: Network is down
+cn02-26.12463ipath_userinit: assign_context command failed: Network is down
+cn02-26.12478ipath_userinit: assign_context command failed: Network is down
+cn02-26.12481ipath_userinit: assign_context command failed: Network is down

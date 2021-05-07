@@ -1,0 +1,24 @@
+matrix size = 12000
+number of iterations = 10000
+element for checking = Mat[102,393]
+write interval = 4000
+
+ total elapsed time on processor 1 = 1567.208783 seconds
+
+ communication elapsed time on processor 1 = 1563.127412 seconds
+
+ computation time for the evolving the bulk by processor 1 = 1496.029519 seconds
+
+ computation time for dumping the files by processor 1 = 3.528245 seconds
+
+
+ total elapsed time on processor 0 = 1567.890848 seconds
+
+ communication elapsed time on processor 0 = 1561.812347 seconds
+
+ computation time for the evolving the bulk by processor 0 = 1489.109101 seconds
+
+ computation time for dumping the files by processor 0 = 5.479545 seconds
+
+
+matrix[102,393] = 0.442396

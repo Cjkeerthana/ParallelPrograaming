@@ -1,0 +1,2 @@
+ computation time for dumping the files by processor 1 = 0.662977 seconds
+ computation time for dumping the files by processor 0 = 1.273526 seconds
