@@ -1,4 +1,8 @@
 /* Ex3 - MPI BOUNDARY EXCHANGE
+ * - Parallel Programming 
+ * - Prof. Ivan Girotto
+ * - Exercise submitted by Keerthana C J 
+ *
  * This program represents a boundary exchange problem which is predominantly
  * used for solving Finite Differences/Finite Element where the boundary data in
  * each processor has to be exchanged across all processors

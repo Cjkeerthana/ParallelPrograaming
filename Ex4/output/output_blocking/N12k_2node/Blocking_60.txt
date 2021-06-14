@@ -1,8 +1,0 @@
---------------------------------------------------------------------------
-There are not enough slots available in the system to satisfy the 60 slots
-that were requested by the application:
-  ./mpi_jacobi_blocking.x
-
-Either request fewer slots for your application, or make more slots available
-for use.
---------------------------------------------------------------------------

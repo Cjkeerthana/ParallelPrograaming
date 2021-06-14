@@ -1,10 +1,22 @@
+/* Ex4 - MPI SOLVING LAPLACE EQUATION USING JACOBI METHOD
+ * - Parallel Programming 
+ * - Prof. Ivan Girotto
+ * - Exercise submitted by Keerthana C J 
+ *
+ * The program is a parallelization of the serial code in the ../code directory
+ * which is used to solve the 2D Laplace equation using Jacobi Method.
+ *
+ * The problem involves boundary exchange between processors
+ * Both Blocking & Non-Blocking communication are tested and their scaling is 
+ * performed. 
+ */
 #include <mpi.h>
 #include <string.h>
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
 #include <sys/time.h>
-#define BLOCKING
+
 
 /*** function declarations ***/
 
@@ -14,16 +26,21 @@ void save_gnuplot( FILE* file, double *M, size_t dim, size_t start, size_t end);
 // evolve Jacobi
 void evolve( double * matrix, double *matrix_new, size_t row_start, size_t row_end, size_t dimension );
 
+// print the matrix
 void print ( double *matrix, size_t loc_dimension, size_t dimension);
 
+// exchange boundaries - non blocking communication
 void exchange_borders_nonblocking (double *matrix, size_t loc_dimension, size_t dimension, int prev, int next, MPI_Datatype MPI_ARRAYROW, MPI_Request **request);
 
+// exchange boundaries - blocking communication
 void exchange_borders_blocking (double *matrix, size_t loc_dimension, size_t dimension, int prev, int next, MPI_Datatype MPI_ARRAYROW);
 
 // return the elapsed time
 double seconds( void );
 
 /*** end function declaration ***/
+
+
 
 int main(int argc, char* argv[]){
 			
@@ -76,6 +93,7 @@ int main(int argc, char* argv[]){
    }
   }
 
+  //allocate local matrices
   byte_dimension = sizeof(double) * ( dimension + 2 ) * ( loc_dimension + 2 );
   matrix = ( double* )malloc( byte_dimension );
   matrix_new = ( double* )malloc( byte_dimension );
@@ -83,37 +101,42 @@ int main(int argc, char* argv[]){
   memset( matrix, 0, byte_dimension );
   memset( matrix_new, 0, byte_dimension );
 
-  //fill initial values  
+  //fill initial values in the whole domain and boundaries
   for( i = 0; i <= loc_dimension+1; ++i )
     for( j = 1; j <= dimension; ++j )
       matrix[ ( i * ( dimension + 2 ) ) + j ] = 0.5;
 	      
-  // set up borders 
+  // set up boundary conditions 
   increment = 100.0 / ( dimension+1 );
   if(rank >= res) offset = res;
   
+  // left boundary condition in the domain
   for( i=0; i < loc_dimension+1; ++i ){
     matrix[ i * ( dimension + 2 ) ] = i * increment + rank * loc_dimension * increment + offset * increment;
     matrix_new[ i * ( dimension + 2 ) ] = i * increment + rank * loc_dimension * increment + offset * increment;
   }
 
+  // bottom boundary condition in the bottom boundary
   if(rank == np-1){
    for( i=0; i<= dimension; ++i){
      matrix[(loc_dimension+1) * (dimension + 2) + i] = (dimension + 1 - i) * increment;
      matrix_new[(loc_dimension+1) * (dimension + 2) + i] = (dimension + 1 - i) * increment;
    }
   }
+  //left boundary condition in the bottom boundary
   else{
    matrix[(loc_dimension + 1) * (dimension + 2)] = increment + (rank+1) * loc_dimension * increment + offset * increment;
    matrix_new[(loc_dimension + 1) * (dimension + 2)] = increment + (rank+1) * loc_dimension * increment + offset * increment;
   }
 
+  //top boundary condition in the top boundary
   if(rank == 0){
    for( i=0; i<=dimension+1; ++i){
      matrix[i] = 0.0;
      matrix_new[i] = 0.0; 
    }
   }
+  //left boundary condition in the top boundary
   else{
    matrix[0] = loc_dimension * increment + (rank-1) * loc_dimension * increment + offset * increment;
    matrix_new[0] = loc_dimension * increment + (rank-1) * loc_dimension * increment + offset * increment;
@@ -135,19 +158,19 @@ int main(int argc, char* argv[]){
   for( it = 0; it < iterations; ++it ){
     
    //Exchange borders	  
-#ifdef BLOCKING	  
+#ifdef BLOCKING	  //Blocking Communication
     t_start_comm = seconds();
    // printf("Inside Blocking\n");
     exchange_borders_blocking(matrix, loc_dimension, dimension, prev, next, MPI_ARRAYROW);
     t_end_comm = seconds();   
-#else
+#else	//Non-blocking Communication
     t_start_comm = seconds();
     exchange_borders_nonblocking(matrix, loc_dimension, dimension, prev, next, MPI_ARRAYROW, &request);
 #endif
     
     //evolve interior
     t_start_comp = seconds();
-    evolve( matrix, matrix_new, 2, loc_dimension, dimension );	//bulk
+    evolve( matrix, matrix_new, 2, loc_dimension, dimension );
     t_end_comp = seconds();
 
 #ifndef BLOCKING    
@@ -177,7 +200,7 @@ int main(int argc, char* argv[]){
   
   
   //peek into row and coloumn
-  size_t glob_dimension_start = rank * loc_dimension + 1  +  offset;
+  size_t glob_dimension_start = rank * loc_dimension + 1  +  offset; // to understand which processor has the point we need falls into
   size_t glob_dimension_end = glob_dimension_start + loc_dimension - 1;
   if(row_peek >= glob_dimension_start && row_peek <= glob_dimension_end){
     size_t loc_dimension_row_peek = row_peek - (rank * loc_dimension) - offset;

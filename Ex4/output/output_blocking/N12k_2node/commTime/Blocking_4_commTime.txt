@@ -1,4 +1,0 @@
- communication elapsed time on processor 3 = 0.008213 seconds
- communication elapsed time on processor 2 = 0.027695 seconds
- communication elapsed time on processor 0 = 0.022807 seconds
- communication elapsed time on processor 1 = 0.001133 seconds

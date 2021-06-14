@@ -1,2 +1,0 @@
- total elapsed time on processor 0 = 1.310527 seconds
- total elapsed time on processor 1 = 1.311351 seconds

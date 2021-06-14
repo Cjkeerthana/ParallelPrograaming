@@ -1,0 +1,7 @@
+
+Times
+Time for Initializing the GPU is 2.219653
+Total time for copying averaged on all processors is 0.011662
+Total time for multiplication averaged on all processors is 0.101814
+Total time for communication averaged on all processors is 0.087006
+Total time for calculation averaged on all processors is 0.003146

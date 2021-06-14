@@ -1,8 +1,0 @@
- total elapsed time on processor 1 = 6.152688 seconds
- total elapsed time on processor 2 = 6.329280 seconds
- total elapsed time on processor 3 = 6.507035 seconds
- total elapsed time on processor 4 = 6.685880 seconds
- total elapsed time on processor 5 = 6.865027 seconds
- total elapsed time on processor 6 = 7.045191 seconds
- total elapsed time on processor 7 = 7.224626 seconds
- total elapsed time on processor 0 = 7.429798 seconds

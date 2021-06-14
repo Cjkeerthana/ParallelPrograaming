@@ -1,0 +1,26 @@
+matrix size = 12000
+number of iterations = 10
+element for checking = Mat[120,395]
+write interval = 10
+mpi_solution_t1.bin
+mpi_solution_t10.bin
+
+ total elapsed time on processor 1 = 4.738837 seconds
+
+ communication elapsed time on processor 1 = 3.293719 seconds
+
+ computation time for the evolving the bulk by processor 1 = 1.455677 seconds
+
+ computation time for dumping the files by processor 1 = 1.306472 seconds
+
+
+ total elapsed time on processor 0 = 5.559015 seconds
+
+ communication elapsed time on processor 0 = 1.565661 seconds
+
+ computation time for the evolving the bulk by processor 0 = 1.413410 seconds
+
+ computation time for dumping the files by processor 0 = 3.963160 seconds
+
+
+matrix[120,395] = 0.500000
