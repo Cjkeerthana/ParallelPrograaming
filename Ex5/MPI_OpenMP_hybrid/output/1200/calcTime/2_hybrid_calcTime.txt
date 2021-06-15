@@ -1,0 +1,2 @@
+ computation time for the evolving the bulk by processor 1 = 0.070982 seconds
+ computation time for the evolving the bulk by processor 0 = 0.102436 seconds
